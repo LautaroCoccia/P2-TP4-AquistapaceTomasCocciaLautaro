@@ -1,4 +1,11 @@
-/*Ejercicio-1 copiar los ejemplos de las páginas 6,8 y 11 del apunte Excepciones en C++ y ejecutarlos*/
+/*
+Alumnos: Aquistapace Tomas - Coccia Lautaro
+
+Ejercicio-1 
+copiar los ejemplos de las páginas 6,8 y 11 del apunte Excepciones en C++ y ejecutarlos.
+
+Fecha de entrega: 25/06/2021
+*/
 
 #include <iostream>
 #include <stdexcept>
@@ -15,7 +22,6 @@ public:
 };
 
 void main() {
-
 	//Pagina 6
 	//Detecta una excepcion bad_alloc cuando se agota la memoria disponible en el Heap
 	cout << "Ejemplo bad_alloc" << endl;
